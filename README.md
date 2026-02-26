@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     srand(time(0));
     
-int randomNum = rand() % 11, guess;
+int randomNum = rand() % 101, guess;
 while (guess != randomNum) {
 cout << " guess the random number ";
 cin >> guess;
